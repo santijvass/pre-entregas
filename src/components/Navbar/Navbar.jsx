@@ -11,9 +11,9 @@ export const Navbar = () => {
       <h1>jsv ski & sport</h1>
       <ul className={styles.containerUl}>
         <li>productos</li>
-        <li>promos y cuotas</li>
-        <li>empresa</li>
-        <li>contacto</li>
+        <li>masculino</li>
+        <li>femenino</li>
+        <li>niños</li>
       </ul>
       <CartWidget />
     </div>
