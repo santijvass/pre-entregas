@@ -1,10 +1,10 @@
 import ItemCard from "./ItemCard";
 
-const ItemListPresentation = ({ producto }) => {
+const ItemListPresentation = ({ items }) => {
   return (
     <div style={{ display: "flex", justifyContent: "space-evenly" }}>
-      {producto.map((producto) => {
-        return <ItemCard producto={producto} />;
+      {items.map((item) => {
+        return <ItemCard item={item} key={item.id} />;
       })}
     </div>
   );
