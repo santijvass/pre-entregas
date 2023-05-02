@@ -7,10 +7,9 @@ const ItemDetailContainer = () => {
   const [product, setProduct] = useState({});
 
   const { id } = useParams();
-  console.log(id);
 
   useEffect(() => {
-    let encontrado = products.find((prod) => prod.id === Number + id);
+    let encontrado = products.find((prod) => prod.id === Number(id));
     setProduct(encontrado);
   }, [id]);
 

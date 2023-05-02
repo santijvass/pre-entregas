@@ -5,7 +5,7 @@ export const products = [
     price: 50000,
     stock: 2,
     description: "Campera premium de hombre",
-    category: "hombre",
+    category: "masculino",
     img: "https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.sporting.com.ar%2Fsporting%2Findumentaria%2Fcamperas%2Foutdoor%3Fmap%3Dcategory-1%2Ccategory-2%2Ccategory-3%2Cdisciplina&psig=AOvVaw08y3pwMpQrAOpCnEm3_m7d&ust=1682540461694000&source=images&cd=vfe&ved=0CBEQjRxqFwoTCIjt1-jtxf4CFQAAAAAdAAAAABAI",
   },
   {
@@ -14,7 +14,7 @@ export const products = [
     price: 14500,
     stock: 15,
     description: "Ultra livianas y cuentan con camara de aire",
-    category: "deportivas",
+    category: "masculino",
     img: "https://res.cloudinary.com/dnqfh2chg/image/upload/v1669430010/foc364fsakkzmausrovn.jpg",
   },
   {
@@ -24,7 +24,7 @@ export const products = [
     stock: 3,
     description:
       "Las clasicas zapatillas que van para cualquier momento del dia",
-    category: "urbanas",
+    category: "masculino",
     img: "https://res.cloudinary.com/dnqfh2chg/image/upload/v1669430165/images_lujpmr.jpg",
   },
   {
@@ -33,7 +33,7 @@ export const products = [
     price: 17800,
     stock: 5,
     description: "Zapatillas de ultima generacion para el deporte",
-    category: "urbanas",
+    category: "masculino",
     img: "https://res.cloudinary.com/dnqfh2chg/image/upload/v1669430220/rtokwmt3j03bblbfhwhb.jpg",
   },
   {
@@ -42,7 +42,7 @@ export const products = [
     price: 17800,
     stock: 5,
     description: "Zapatillas de ultima generacion para el deporte",
-    category: "urbanas",
+    category: "femenino",
     img: "https://res.cloudinary.com/dnqfh2chg/image/upload/v1669430220/rtokwmt3j03bblbfhwhb.jpg",
   },
   {
@@ -51,7 +51,7 @@ export const products = [
     price: 17800,
     stock: 5,
     description: "Zapatillas de ultima generacion para el deporte",
-    category: "urbanas",
+    category: "femenino",
     img: "https://res.cloudinary.com/dnqfh2chg/image/upload/v1669430220/rtokwmt3j03bblbfhwhb.jpg",
   },
   {
@@ -60,7 +60,7 @@ export const products = [
     price: 17800,
     stock: 5,
     description: "Zapatillas de ultima generacion para el deporte",
-    category: "urbanas",
+    category: "femenino",
     img: "https://res.cloudinary.com/dnqfh2chg/image/upload/v1669430220/rtokwmt3j03bblbfhwhb.jpg",
   },
   {
@@ -69,7 +69,7 @@ export const products = [
     price: 17800,
     stock: 5,
     description: "Zapatillas de ultima generacion para el deporte",
-    category: "urbanas",
+    category: "femenino",
     img: "https://res.cloudinary.com/dnqfh2chg/image/upload/v1669430220/rtokwmt3j03bblbfhwhb.jpg",
   },
   {
@@ -78,7 +78,7 @@ export const products = [
     price: 17800,
     stock: 5,
     description: "Zapatillas de ultima generacion para el deporte",
-    category: "urbanas",
+    category: "niños",
     img: "https://res.cloudinary.com/dnqfh2chg/image/upload/v1669430220/rtokwmt3j03bblbfhwhb.jpg",
   },
   {
@@ -87,7 +87,7 @@ export const products = [
     price: 17800,
     stock: 5,
     description: "Zapatillas de ultima generacion para el deporte",
-    category: "urbanas",
+    category: "niños",
     img: "https://res.cloudinary.com/dnqfh2chg/image/upload/v1669430220/rtokwmt3j03bblbfhwhb.jpg",
   },
   {
@@ -96,7 +96,7 @@ export const products = [
     price: 17800,
     stock: 5,
     description: "Zapatillas de ultima generacion para el deporte",
-    category: "urbanas",
+    category: "niños",
     img: "https://res.cloudinary.com/dnqfh2chg/image/upload/v1669430220/rtokwmt3j03bblbfhwhb.jpg",
   },
   {
@@ -105,7 +105,7 @@ export const products = [
     price: 17800,
     stock: 5,
     description: "Zapatillas de ultima generacion para el deporte",
-    category: "urbanas",
+    category: "niños",
     img: "https://res.cloudinary.com/dnqfh2chg/image/upload/v1669430220/rtokwmt3j03bblbfhwhb.jpg",
   },
 ];

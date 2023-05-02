@@ -1,8 +1,10 @@
-import { Link, Outlet } from "react-router-dom";
+import { Link, Outlet, useNavigate } from "react-router-dom";
 import CartWidget from "../CartWidget/CartWidget";
 import styles from "./Navbar.module.css";
 
 export const Navbar = () => {
+  const navigate = useNavigate();
+
   return (
     <div>
       <div className={styles.containerNavbar}>
@@ -14,10 +16,15 @@ export const Navbar = () => {
         </Link>
         <h1>jsv ski & sport</h1>
         <ul className={styles.containerUl}>
-          <li>productos</li>
-          <li>masculino</li>
-          <li>femenino</li>
-          <li>niños</li>
+          <Link to="/">todas</Link>
+          <button
+            variant="contained"
+            onClick={() => navigate("/category/masculino")}
+          >
+            masculino
+          </button>
+          <Link to="/category/femenino">femenino</Link>
+          <Link to="/category/niños">niños</Link>
         </ul>
         <CartWidget />
       </div>
