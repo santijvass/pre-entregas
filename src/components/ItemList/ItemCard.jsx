@@ -5,6 +5,7 @@ import CardContent from "@mui/material/CardContent";
 import CardMedia from "@mui/material/CardMedia";
 import Button from "@mui/material/Button";
 import Typography from "@mui/material/Typography";
+import { Link } from "react-router-dom";
 
 const ItemCard = ({ item }) => {
   return (
@@ -22,9 +23,11 @@ const ItemCard = ({ item }) => {
         </Typography>
       </CardContent>
       <CardActions>
-        <Button size="small" variant="contained">
-          Ver detalle
-        </Button>
+        <Link to="/itemDetail">
+          <Button size="small" variant="contained">
+            Ver detalle
+          </Button>
+        </Link>
       </CardActions>
     </Card>
   );
